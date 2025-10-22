@@ -1,0 +1,56 @@
+# ----------------------------------------------------------------
+# .gitignore สำหรับโปรเจกต์ Python
+# ----------------------------------------------------------------
+
+# Virtual Environments (โฟลเดอร์ที่คุณถามถึง)
+.venv/
+venv/
+env/
+*.env
+
+# ไฟล์ Environment variables (ห้าม commit เด็ดขาด)
+.env
+.env.*
+!.env.example
+
+# Python cache และไฟล์ที่คอมไพล์แล้ว
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# โฟลเดอร์ที่เกิดจากการ Build หรือ Distribute
+build/
+dist/
+*.egg-info/
+sdist/
+*.egg
+wheels/
+
+# ไฟล์ Log
+*.log
+pip-log.txt
+
+# ฐานข้อมูล SQLite (สำหรับ local development)
+*.sqlite3
+*.db
+*.db3
+
+# ไฟล์ Test & Coverage
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+
+# ไฟล์จาก IDEs และ Editors
+.idea/       # PyCharm
+.vscode/     # VS Code (ยกเว้นไฟล์ที่ตั้งใจแชร์)
+!.vscode/extensions.json
+!.vscode/settings.json
+*.sublime-project
+*.sublime-workspace
+
+# ไฟล์ของ OS
+.DS_Store    # macOS
+Thumbs.db    # Windows
