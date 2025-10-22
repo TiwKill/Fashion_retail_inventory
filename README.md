@@ -352,15 +352,6 @@ python-dotenv==1.0.0
 simpy==4.1.1
 ```
 
-## 📝 Env
-
-```txt
-BRAND_ADIDAS_PATH=data/adidas_sales.csv
-BRAND_NIKE_PATH=data/nike_sales.csv
-BRAND_PUMA_PATH=data/puma_sales.csv
-BRAND_H_M_PATH=data/h_m_sales.csv
-```
-
 ## 🤝 การพัฒนา
 
 ### การทดสอบ
